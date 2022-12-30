@@ -2,7 +2,8 @@
     font-family: 'Yeseva One';
     font-style: normal;
     font-weight: 400;
-    src: url('/assets/fonts/Yeseva_One/YesevaOne-Regular.woff2') format('woff2');
+    src: local('Yeseva One'), url('/assets/fonts/Yeseva_One/YesevaOne-Regular.woff2') format('woff2');
+    font-display: swap;
 }
 
 .logo,
