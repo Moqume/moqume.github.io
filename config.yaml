@@ -1,0 +1,50 @@
+baseURL: https://moqu.me/
+languageCode: en-gb
+title: Moqume
+theme: PaperMod
+paginate: 5
+
+enableInlineShortcodes: true
+enableRobotsTXT: true
+buildDrafts: false
+buildFuture: false
+buildExpired: false
+enableEmoji: true
+pygmentsUseClasses: true
+
+params:
+  description: "Moqume - https://moqu.me"
+  author: Moqume
+
+  defaultTheme: auto
+  disableThemeToggle: false
+  ShowShareButtons: true
+  ShowReadingTime: true
+  displayFullLangName: true
+  ShowPostNavLinks: true
+  ShowBreadCrumbs: true
+  ShowCodeCopyButtons: true
+  ShowRssButtonInSectionTermList: true
+  ShowToc: true 
+  hideFooter: true
+
+  profileMode:
+      enabled: true
+      title: "Hi there!👋"
+      subtitle: >
+        My real name is Mike Green, and I'm usually somewhere in or around London, UK.
+
+
+        My bio in short: I keep servers happy. I program too. Blunt and direct. Asks awkward questions. Formerly known as "Myatu".
+      imageUrl: "/assets/images/8b-moqume-300x300.webp"
+      imageTitle: "It's me, Moqume!"
+
+  socialIcons:
+    - name: github
+      url: "https://github.com/Moqume"
+    - name: mastodon
+      url: "https://techhub.social/@moqume"
+    - name: medium
+      url: "https://medium.com/myatus"
+    - name: Rss
+      url: "index.xml"
