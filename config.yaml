@@ -45,6 +45,6 @@ params:
     - name: mastodon
       url: "https://techhub.social/@moqume"
     - name: medium
-      url: "https://medium.com/myatus"
+      url: "https://medium.com/moqume"
     - name: Rss
       url: "index.xml"
