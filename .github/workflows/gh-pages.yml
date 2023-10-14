@@ -16,15 +16,15 @@ jobs:
           fetch-depth: 0
 
       - name: Read .env
-        id: hugo-version
-        run: |
-          . ./.env
-          echo "::set-output name=HUGO_VERSION::${HUGO_VERSION}"
-
+        id: dotenv
+        uses: falti/dotenv-action@v1.0.4
+        with:
+          key-case: bypass
+        
       - name: Setup Hugo
         uses: peaceiris/actions-hugo@v2
         with:
-          hugo-version: '${{ steps.hugo-version.outputs.HUGO_VERSION }}'
+          hugo-version: '${{ steps.dotenv.outputs.HUGO_VERSION }}'
           extended: true
 
       - name: Build
