@@ -19,7 +19,7 @@ jobs:
         id: dotenv
         uses: falti/dotenv-action@v1.0.4
         with:
-          key-case: bypass
+          keys-case: bypass
         
       - name: Setup Hugo
         uses: peaceiris/actions-hugo@v2
