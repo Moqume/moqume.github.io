@@ -1,0 +1,13 @@
+baseURL: https://moqu.me/
+languageCode: en-gb
+title: Moqume
+theme: PaperMod
+paginate: 5
+
+enableInlineShortcodes: true
+enableRobotsTXT: true
+buildDrafts: false
+buildFuture: false
+buildExpired: false
+enableEmoji: true
+pygmentsUseClasses: true
