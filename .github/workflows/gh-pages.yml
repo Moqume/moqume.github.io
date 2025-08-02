@@ -32,6 +32,7 @@ jobs:
           fetch-depth: 0
       - name: Read .env
         id: dotenv
+
         uses: falti/dotenv-action@v1.1.4
         with:
           keys-case: bypass
