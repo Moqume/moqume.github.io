@@ -2,7 +2,9 @@ baseURL: https://moqu.me/
 languageCode: en-gb
 title: Moqume
 theme: PaperMod
-paginate: 5
+
+pagination:
+  paperSize: 5
 
 enableInlineShortcodes: true
 enableRobotsTXT: true
@@ -11,3 +13,8 @@ buildFuture: false
 buildExpired: false
 enableEmoji: true
 pygmentsUseClasses: true
+
+caches:
+  images:
+    dir: :cacheDir/images
+
